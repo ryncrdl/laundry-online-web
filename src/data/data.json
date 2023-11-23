@@ -1,0 +1,94 @@
+{
+  "Header": {
+    "title": "Explore Our Laundry Haven",
+    "paragraph": "Revolutionize your laundry experience with our app – seamless, efficient, and tailored just for you. Explore top-notch services, delve into the details, and meet our passionate team. Download now for simplified, convenient laundry care. Your time and garments deserve the best!"
+  },
+  "About": {
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "Why": [
+      "Lorem ipsum dolor",
+      "Tempor incididunt",
+      "Lorem ipsum dolor",
+      "Incididunt ut labore"
+    ],
+    "Why2": [
+      "Aliquip ex ea commodo",
+      "Lorem ipsum dolor",
+      "Exercitation ullamco",
+      "Lorem ipsum dolor"
+    ]
+  },
+
+  "Services": [
+    {
+      "icon": "fa fa-tint",
+      "name": "Service 1",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Service 2",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Service 3",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "Service 4",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Service 5",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Service 6",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "Aron Bernardo",
+      "job": "Project Manager"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Emilio Ramirez",
+      "job": "UI Designer"
+    },
+    {
+      "img": "img/team/empty-profile.jfif",
+      "name": "John Erick Fija",
+      "job": "Programmer"
+    },
+    {
+      "img": "img/team/empty-profile.jfif",
+      "name": "Lj Cruz",
+      "job": "Programmer"
+    },
+    {
+      "img": "img/team/empty-profile.jfif",
+      "name": "Rave Ollorza",
+      "job": "Programmer"
+    },
+    {
+      "img": "img/team/empty-profile.jfif",
+      "name": "Kristine Cassandra Banzuela",
+      "job": "Document Specialist"
+    }
+  ],
+  "Contact": {
+    "address": "Kasiglahan Rodriguez(Montalbal), Rizal",
+    "phone": "+63 091 234 5678",
+    "email": "laundryonline@gmail.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  }
+}
