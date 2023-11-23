@@ -479,6 +479,7 @@ label {
 }
 #contact textarea {
   resize: none;
+
 }
 
 #contact .form-control:focus {

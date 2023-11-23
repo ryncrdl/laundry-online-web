@@ -4,51 +4,51 @@
     "paragraph": "Revolutionize your laundry experience with our app – seamless, efficient, and tailored just for you. Explore top-notch services, delve into the details, and meet our passionate team. Download now for simplified, convenient laundry care. Your time and garments deserve the best!"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Welcome to Our Laundry Shop, where we redefine the laundry experience with a commitment to quality, convenience, and care. With a passion for pristine garments and a dedication to customer satisfaction, we've crafted a laundry service that goes beyond the ordinary. Our team of experts is here to make your laundry routine a breeze, ensuring every item is treated with the utmost attention. At Laundry Shop, it's not just about cleaning clothes; it's about enhancing your lifestyle.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Premium Care",
+      "Affordable Excellence",
+      "Convenience at Your Doorstep",
+      "Specialized Treatments"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Express Options",
+      "Eco-Friendly Practices",
+      "Experienced Team",
+      "Transparent Pricing"
     ]
   },
 
   "Services": [
     {
       "icon": "fa fa-tint",
-      "name": "Service 1",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Wash/Dry/Fold",
+      "text": "Price: 70 .kg"
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Service 2",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-tint",
+      "name": "Wash/Dry/Press",
+      "text": "Price: 100 .kg"
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Service 3",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-tint",
+      "name": "Hand Wash/Fold/Press",
+      "text": "Price: 90 .kg"
     },
     {
-      "icon": "fa fa-language",
-      "name": "Service 4",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-tint",
+      "name": "Rush Laundry",
+      "text": "Price: 120 .kg"
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Service 5",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-tint",
+      "name": "Premium Dry Cleaning",
+      "text": "Price: 90 .kg"
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Service 6",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-tint",
+      "name": "Standard Wash & Fold",
+      "text": "Price: 120 .kg"
     }
   ],
   "Team": [
@@ -79,7 +79,7 @@
     },
     {
       "img": "img/team/empty-profile.jfif",
-      "name": "Kristine Cassandra Banzuela",
+      "name": "Kristine Banzuela",
       "job": "Document Specialist"
     }
   ],
