@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body,
 html {
   font-family: "Open Sans", sans-serif;
@@ -207,7 +213,6 @@ a:focus,
 .intro {
   width: 100vw;
   display: table;
-
   padding: 0;
   background: url(../img/intro-bg.jpg) center center no-repeat;
   background-color: #e5e5e5;
