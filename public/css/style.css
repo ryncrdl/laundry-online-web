@@ -293,6 +293,7 @@ header .intro-text {
 }
 /* Services Section */
 #services {
+  width: 100%;
   padding: 100px 0;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: #fff;
@@ -479,7 +480,6 @@ label {
 }
 #contact textarea {
   resize: none;
-
 }
 
 #contact .form-control:focus {
