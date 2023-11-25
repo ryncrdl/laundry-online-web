@@ -2,28 +2,37 @@ import { useState } from "react"
 import emailjs from "emailjs-com"
 import React from "react"
 
-const initialState = {
-  name: "",
-  email: "",
-  message: "",
-}
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState)
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [message, setMessage] = useState("")
 
-  const handleChange = (e) => {
-    const { name, value } = e.target
-    setState((prevState) => ({ ...prevState, [name]: value }))
+  const clearState = () => {
+    setName("")
+    setEmail("")
+    setMessage("")
   }
-  const clearState = () => setState({ ...initialState })
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    console.log(name, email, message)
+
+    const templateParams = {
+      to_email: "laundryshop2023.online@gmail.com",
+      from_name: name,
+      message: `Email: ${email}\n${message}`,
+      subject: "Inquiry for Laundry Shop",
+    }
+
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_USER_ID")
+      .send(
+        "service_zfrb0bv",
+        "template_w5etj8b",
+        templateParams,
+        "cch05auc-hFY5qbbL"
+      )
       .then(
-        (result) => {
-          console.log(result.text)
+        () => {
+          alert("Inquiry Submitted")
           clearState()
         },
         (error) => {
@@ -55,7 +64,8 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Name"
                         required
-                        onChange={handleChange}
+                        value={name}
+                        onChange={(e) => setName(e.currentTarget.value)}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -69,7 +79,8 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Email"
                         required
-                        onChange={handleChange}
+                        value={email}
+                        onChange={(e) => setEmail(e.currentTarget.value)}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -83,7 +94,8 @@ export const Contact = (props) => {
                     rows="10"
                     placeholder="Message"
                     required
-                    onChange={handleChange}
+                    value={message}
+                    onChange={(e) => setMessage(e.currentTarget.value)}
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>

@@ -1,4 +1,5 @@
 import React from "react"
+import app from "../ApkApp/onlineLaundry.apk"
 
 export const Header = (props) => {
   return (
@@ -13,9 +14,14 @@ export const Header = (props) => {
                   <span></span>
                 </h1>
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
-                <a href="#" className="btn btn-custom btn-lg page-scroll">
+                <a
+                  href={app}
+                  className="btn btn-custom btn-lg page-scroll"
+                  download="onlineLaundry.apk"
+                  onClick={() => alert("Downloading Online Laundry App")}
+                >
                   Download App
-                </a>{" "}
+                </a>
               </div>
             </div>
           </div>
