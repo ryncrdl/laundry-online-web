@@ -211,7 +211,6 @@ a:focus,
 }
 /* Header Section */
 .intro {
-  width: 100.05vw;
   display: table;
   padding: 0;
   background: url(../img/intro-bg.jpg) center center no-repeat;
@@ -570,5 +569,3 @@ label {
     font-size: 1.5rem;
   }
 }
-
-
