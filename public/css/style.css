@@ -210,7 +210,6 @@ a:focus,
   outline-offset: none;
 }
 /* Header Section */
-
 .intro {
   width: 100.05vw;
   display: table;
@@ -569,9 +568,6 @@ label {
 
   .intro p {
     font-size: 1.5rem;
-  }
-  body {
-    min-width: 480px;
   }
 }
 
