@@ -1,5 +1,5 @@
 import React from "react"
-import app from "../ApkApp/onlineLaundry.apk"
+// import app from "../ApkApp/onlineLaundry.apk"
 
 export const Header = (props) => {
   return (
@@ -15,10 +15,10 @@ export const Header = (props) => {
                 </h1>
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
                 <a
-                  href={app}
+                  href="#"
                   className="btn btn-custom btn-lg page-scroll"
-                  download="onlineLaundry.apk"
-                  onClick={() => alert("Downloading Online Laundry App")}
+                  // download="onlineLaundry.apk"
+                  onClick={() => alert("Magbayad muna kayo :)")}
                 >
                   Download App
                 </a>
