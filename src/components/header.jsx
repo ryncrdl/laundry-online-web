@@ -18,7 +18,7 @@ export const Header = (props) => {
                   href="#download"
                   // download="onlineLaundry.apk"
                   className="btn btn-custom btn-lg page-scroll"
-                  onClick={() => alert("Magbayad muna kayo :)")}
+                  onClick={() => alert("Sorry!!! Mobile App is not available")}
                 >
                   Download App
                 </a>
