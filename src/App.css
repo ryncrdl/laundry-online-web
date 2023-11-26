@@ -7,4 +7,13 @@
   #footer {
     width: 100%;
   }
+
+}
+
+#header,
+#services {
+  width: 100%;
+}
+.intro {
+  width: 100%;
 }
