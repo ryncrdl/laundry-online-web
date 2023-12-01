@@ -5,7 +5,7 @@ export const Team = (props) => {
     <div id="team" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Meet the Team</h2>
+          <h2>Project Developers</h2>
           <p>
             Step into a digital wonderland crafted by our exceptional developer.
             Explore with delight.
